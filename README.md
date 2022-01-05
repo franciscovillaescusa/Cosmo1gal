@@ -1,3 +1,16 @@
+# Prerequisites
+
+The packages needed to run the codes are:
+- python3
+- numpy
+- [Pytorch](https://pytorch.org)
+- [Optuna](https://optuna.org)
+- [XGB](https://xgboost.readthedocs.io/en/stable/)
+- [SHAP](https://shap.readthedocs.io/en/latest/) (only to compute SHAP values)
+- [Pylians3](https://pylians3.readthedocs.io/en/master/) (only for Fisher analysis)
+
+If the user wants to add more galaxy properties to the ones considered here he/she will need to download the [CAMELS Subfind catalogues](https://camels.readthedocs.io/en/latest/subfind.html).
+
 # Structure
 
 There are four different folders:
@@ -26,11 +39,34 @@ We note that the `galaxies_*` files are too heavy to be stored in GitHub. We pro
 
 ## neural networks
 
+This folder contains the codes, databases, and weights of the neural networks. There are different files:
+
+- `architecture.py`. This script contains the different neural network architectures.
+- `data.py`. This script reads the data and prepare it to train the networks.
+- `main_LFI.py`. This script is used to train the networks.
+- `test_LFI.py`. This script is used to test the networks.
+- `train_with_feedback_LFI.py`. This script is used to train models where the value of the astrophysical parameters are known.
+- `analyze_databases.py`. This script will read the different databases and print some information about their best trials.
+- `analyze_results.py`. This script is used to analyze the results after training the networks.
+- `shap_values.py`. This script is used to compute the shape values.
+
+There are also different folders:
+- `databases`. This folder contains the databases.
+- `losses`. This folder contains the losses of the different models.
+- `models`. This folder contains the network weights for the different models.
+- `Results.txt`. This folder contains the results of testing the models.
+- `shap`. This folder contains the SHAP values of the model.
+
+Unfortunately, the folders are too heavy to be hosted in GitHub. We however provide access to them through:
+ -	[Globus](https://app.globus.org/file-manager?origin_id=f6df2ab2-6e54-11ec-bdef-55fe55c2cfea&origin_path=%2F)
+-	[Url](https://users.flatironinstitute.org/~fvillaescusa/priv/Yyt5w0nMuSwLQf1jufO5wgI13a3_x/PUBLIC)
+
+
 ## XGB
+
+This folder contains the scripts, databases, and results of performing the analysis using gradient boosting trees.
+
 
 ## other
 
-
-
-
-
+This folder contains the codes used to carry out the Fisher matrix calculation.
