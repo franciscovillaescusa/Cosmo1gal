@@ -1,0 +1,14 @@
++J      3.785e-2
++Mbh    3.792e-2
++Zg     3.796e-2
++V      3.830e-2 
++Rtot   3.841e-2
++SFR    3.908e-2
++Mtot   3.972e-2
++Vdisp  4.082e-2
++Mgas   4.175e-2
++Rstar  4.343e-2
++Zs     4.532e-2
++Rvmax  5.047e-2
++Mstar  6.384e-2
+Vmax    8.070e-2

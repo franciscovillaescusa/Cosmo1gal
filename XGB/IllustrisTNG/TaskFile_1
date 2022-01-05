@@ -1,0 +1,16 @@
+python3 RF.py -discard 0 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 1 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 2 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 3 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 4 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 5 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 6 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 7 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 8 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 10 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 11 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 12 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 13 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 14 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 15 -discarded 9 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 16 -discarded 9 &> task_${DISBATCH_TASKID}.log

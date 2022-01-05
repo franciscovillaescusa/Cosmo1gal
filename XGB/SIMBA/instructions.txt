@@ -1,0 +1,2 @@
+module load disBatch
+sbatch -p cmbas -n 17 --ntasks-per-node 2 disBatch TaskFile_0

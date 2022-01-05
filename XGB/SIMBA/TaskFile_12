@@ -1,0 +1,2 @@
+python3 RF.py -discard 1 -discarded 9 2 6 10 12 8 3 5 0 11 7 13 &> task_${DISBATCH_TASKID}.log
+python3 RF.py -discard 4 -discarded 9 2 6 10 12 8 3 5 0 11 7 13 &> task_${DISBATCH_TASKID}.log
