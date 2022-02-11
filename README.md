@@ -34,8 +34,8 @@ This folder contains the following files:
 - `latin_hypercube_params_X.txt`. This file contains the value of the cosmological and astrophysical parameters for each simulation. X can be  `IllustrisTNG` or `SIMBA`.
 
 We note that the `galaxies_*` files are too heavy to be stored in GitHub. We provide access to them through:
--	[Globus](https://app.globus.org/file-manager?origin_id=f6df2ab2-6e54-11ec-bdef-55fe55c2cfea&origin_path=%2F)
--	[Url](https://users.flatironinstitute.org/~fvillaescusa/priv/Yyt5w0nMuSwLQf1jufO5wgI13a3_x/PUBLIC)
+-	[Globus](https://app.globus.org/file-manager?origin_id=fb43264c-8b52-11ec-900b-3132d806a822&origin_path=%2F)
+-	[Url](https://users.flatironinstitute.org/~fvillaescusa/priv/WrswOUVzX5cGFgbhh7Z7hUCJyrStY/PUBLIC)
 
 ## neural networks
 
